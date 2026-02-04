@@ -1,14 +1,14 @@
 import React, { useState } from "react";
 
 function App() {
-  /*const [nome, setNome] = useState("");
+  const [nome, setNome] = useState("");
   const [email, setEmail] = useState("");
 
   function handleSubmit(event) {
     event.preventDefault();
 
     console.log(nome);
-  }*/
+  }
 
   return (
     <form onSubmit={handleSubmit}>
